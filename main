@@ -1,0 +1,10 @@
+#include <iostream>
+#include "Studente.h"
+#include "Staff.h"
+
+int main() {
+	Studente p("Aldo","Asso","tre4");
+	p.print();
+	Staff a("NA","oi","bijbj");
+	a.print();
+}
